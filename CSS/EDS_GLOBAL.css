@@ -1,0 +1,98 @@
+body {
+
+margin:0 auto;
+font-family: 'Tahoma', 'Georgia', 'Montserrat', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック', '游ゴシッ体', YuGothic, 'Yu Gothic', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
+overflow-x: hidden;
+padding:1vw;
+
+}
+
+input{
+	margin-right: 1.5vw;
+}
+
+.scaffolding{
+	border:1px solid black;
+}
+
+.hidden {
+display:none;
+}
+
+
+.landingWrapper{
+width:100%;
+}
+
+.landingImageWrapper{
+width:100%;
+float:left;
+}
+
+.landingImage{
+width:100%;
+}
+
+.landingTitle {
+text-align:center;
+float:left;
+}
+
+.headlinerText{
+font-weight:900;
+font-size:6vh;
+}
+
+
+.titleA {
+font-weight:900;
+font-size:3vh;
+}
+
+.textA {
+font-weight:900;
+font-size:2vh;
+}
+
+.textLeftJustified{
+text-align:left;
+}
+
+
+.mb4{
+margin-bottom:4vh;
+}
+
+.lineBreak{
+height:3px;
+width:100%;
+background-color:black;
+float:left;
+}
+
+@media screen and (max-width: 768px) {
+
+body {
+
+overflow-x:hidden;
+}
+
+.headlinerText{
+font-weight:900;
+font-size:6vh;
+}
+
+
+.titleA {
+font-weight:900;
+font-size:4.2vh;
+}
+
+.textA {
+font-weight:600;
+font-size:3vh;
+}
+
+
+}
+

@@ -1,0 +1,386 @@
+body{
+background-color:;
+margin:0;
+font-family: 'Montserrat', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック' , '游ゴシック体' , YuGothic , 'Yu Gothic', 'ＭＳ ゴシック' , 'MS Gothic', sans-serif;
+}
+
+.hidden{
+display:none;
+}
+
+.tester{
+border: 1px solid black;
+}
+
+
+/* ---------------- HEADER START ----------------- */
+.headerWrapper{
+width:100%;
+border-bottom:solid 1px black;
+
+}
+.headerImage{
+width: 100%;
+}
+
+.landingTitle{
+text-align:center;
+}
+/* ---------------- HEADER END ----------------- */
+/* ---------------- SOCIAL START ----------------- */
+.topper {
+  width: 100%;
+  border-bottom: solid 1px black;
+    padding-bottom: 0vh;
+    float: left;
+}
+
+.FTWwrapper{
+  float:left;
+  width:50%;
+}
+
+.FTW{
+  height:20vh;
+  margin-left:0;
+
+}
+
+.socialIconBox{
+  width:40%;
+  margin-bottom:0;
+  margin-right:0; 
+  float:right;
+  border:solid black 1px;
+}
+
+.socialSectionBot{
+  width:100%;
+  border-top:solid 1px black;
+  display: flex;
+  justify-content: center;
+  margin-top:2vh;
+}
+
+.socIconTop{
+  height:8vh;
+  margin-top:1vh;
+  margin-left:1vw;
+  margin-right:1vw;
+  float:right;
+}
+
+.socIconBot{
+  height:9vh;
+  margin-top:1vh;
+  margin-left:1vw;
+  margin-right:1vw;
+}
+
+
+/* ---------------- SOCIAL END ----------------- */
+
+
+
+
+/* ---------------- MENU START ----------------- */
+.menuWrapper{
+  width:100%;
+  border-bottom:solid 1px black;
+  display: flex;
+  justify-content: center;
+}
+
+.menuItemCont{
+  /*border:solid 1px red;*/
+  text-align:center;
+  padding:1vw;
+  float:left;
+
+}
+
+.menuItem{
+  text-decoration:none;
+  color:black;
+  font-weight:900;
+  font-size:1.3vw;
+}
+
+/* ---------------- MENU END ----------------- */
+
+
+/* ---------------- CONTENT START ----------------- */
+.titleFont{
+  font-size:8vh;
+  font-weight: 900;
+}
+
+.contentFont{
+  font-size:8vh;
+  font-weight: 500;
+}
+
+.padding{
+  padding-left:2vw;
+  padding-right:2vw;
+}
+
+
+.noTextDecor{
+  text-decoration:none;
+  color:black;
+}
+
+.contentWrapper{
+  width:70.5%;
+  float:left;
+  padding:;
+}
+
+.cardWrapper{
+    border:solid 1px black;
+    width:100%;
+    float:left;
+    /*background-color: red;*/
+    display: inline;
+}
+
+.cardTitle{
+  font-weight:900;
+  font-size:2vw;
+  width:100%;
+  float:left;
+  margin:2vh 2vw 2vh 2vw;
+}
+
+.cardImageWrapper{
+  float:left;
+  margin:2vh 2vw 2vh 2vw;
+  width:40%;
+}
+
+.cardImage{
+  width:100%;
+  float:left;
+
+}
+
+.cardTextBox{
+  background-color: white;
+  border:solid 1px black;
+  width:52%;
+  word-wrap: break-word;
+  margin-top:2vh;
+  float:left;
+  
+}
+
+.cardText{
+  font-size:1.2vw;
+  font-weight:600;
+  margin-top: 0;
+}
+
+.image20{
+  width:20vw;
+  padding: 1vh 1vw 1vh 1vw;
+  float:left;
+}
+
+
+
+
+/* ---------------- CONTENT END ----------------- */
+
+/* ---------------- FOOTER START ----------------- */
+.footerWrapper{
+  width:100%;
+  border-top:solid 1px black;
+  text-align: center;
+  float:left;
+
+}
+/* ---------------- FOOTER END ----------------- */
+
+
+
+/* ---------------- ADVERT START ----------------- */
+
+.advertLeftTop, .advertRightBot{
+  border:black solid 1px;
+  width:14.5%;
+  float:left;
+  text-align:center;
+  /*overflow-x:hidden;
+  overflow-y:scroll;*/
+}
+
+.advertImageLT, .advertImageRB{
+  margin:2vh auto 2vh auto;
+  width:80%;
+}
+
+
+/* ---------------- ADVERT END ----------------- */
+
+
+/* ---------------- TEXT/FONT START ----------------- */
+
+.titleA{
+    color:white;
+    font-weight:900;
+    font-size:6vh;
+}
+
+/* ---------------- TEXT/FONT END ----------------- */
+
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+/* ---------------- MENU START ----------------- */
+.menuWrapper{
+  width:100%;
+  border-bottom:solid 1px black;
+  display: block;
+
+}  
+
+.menuItemCont{
+  width:100%;
+  border:solid 1px black;
+  text-align:center;
+  padding:1vw;
+  float:left;
+
+}
+
+.menuItem{
+  text-decoration:none;
+  color:black;
+  font-weight:900;
+  font-size:5vw;
+}
+/* ---------------- MENU END ----------------- */
+
+/* ---------------- WELCOME PAGE START ----------------- */
+
+/* ---------------- WELCOME PAGE END ----------------- */
+
+/* ---------------- CONTENT START ----------------- */
+
+.FTWwrapper{
+  float:left;
+  width:100%;
+}
+
+.FTW{
+  width:100%;
+  height:35vh;
+  margin-left:0;
+
+}
+
+.socialIconBox{
+  width:100%;
+  float:left;
+  border:solid black 1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.socIconTop{
+  height:12vh;
+  margin:2vh 2vw 2vh 2vw;
+}
+
+.socIconBot{
+  height:12vh;
+  margin:2vh 2vw 2vh 2vw;
+}
+
+.contentWrapper{
+  width:100%;
+  float:left;
+
+}
+
+.cardWrapper{
+    border:solid 1px black;
+    width:100%;
+    float:left;
+}
+
+.cardTitle{
+  font-weight:900;
+  font-size:5.5vw;
+  width:100%;
+  float:left;
+  text-align: center;
+}
+
+.cardImageWrapper{
+  float:left;
+  width:100%;
+  background-color: pink;
+  margin-left:0;
+
+}
+
+.cardImage{
+  width:100%;
+}
+
+.cardTextBox{
+  background-color: white;
+  border:solid 1px black;
+  width:100%;
+  word-wrap: break-word;
+  float:left;
+  text-align: center; 
+
+}
+
+.cardText{
+  font-size:3vw;
+  font-weight:600;
+  margin-top: 0;
+  padding:2vw;
+}
+
+
+
+
+
+/* ---------------- CONTENT END ----------------- */
+
+/* ---------------- ADVERT START ----------------- */
+.advertLeftTop, .advertRightBot{
+  border:black solid 1px;
+  width:100%;
+  float:left;
+  text-align:center;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  height: 300px;
+  white-space: nowrap
+}
+
+.advertImageLT, .advertImageRB{
+  margin:2vh 2vw 2vh 2vw ;
+  height:250px;
+  width:250px;
+}
+/* ---------------- ADVERT END ----------------- */
+
+
+
+
+}
+

@@ -1,0 +1,281 @@
+.contentContainer{
+width:100%;
+text-align:center;
+float:left;
+}
+
+.contentWrapper{
+width:98%;
+display: flex;
+justify-content:center;
+float:left;
+}
+
+.padding{
+padding-left:4vw;
+padding-right:4vw;
+}
+
+.videoWrapper{
+width:100%;
+display: flex;
+justify-content:center;
+float:left;	
+}
+
+.video{
+width:80vw;
+height:45vw;
+float:left;
+}
+
+.noTextDecor{
+text-decoration:none;
+color:black;
+}
+
+.cardWrapper{
+border:solid 1px black;
+width:100%;
+float:left;
+display: inline;
+}
+
+.cardTitle{
+font-weight:900;
+font-size:2vw;
+width:100%;
+float:left;
+margin:2vh 2vw 2vh 2vw;
+}
+
+.cardImageWrapper{
+float:left;
+margin:2vh 2vw 2vh 2vw;
+width:40%;
+}
+
+.cardImage{
+width:100%;
+float:left;
+}
+
+.cardTextBox{
+background-color:white;
+border:solid 1px black;
+width:52%;
+word-wrap:break-word;
+margin-top:2vh;
+float:left; 
+}
+
+.cardText{
+font-size:1.2vw;
+font-weight:600;
+margin-top: 0;
+}
+
+.image20{
+width:20vw;
+padding: 1vh 1vw 1vh 1vw;
+float:left;
+}
+
+/* -------------- index page hidden elements   ----------------*/
+
+.landingFadeIn{
+
+display: none;
+
+}
+
+/* -------------- about us elements   ----------------*/
+
+.employeeImage{
+    width: 80%;
+}
+
+/* -------------- service & courses elements   ----------------*/
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    font-weight: 900;
+    color: black;
+    font-size: 2.5vh;
+}
+
+td {
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+}
+
+
+.RevealTableWhenResponsive {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+.RevealTableWhenResponsive {
+    display:block;
+}
+
+.HideTableWhenResponsive {
+    display: none;
+}
+
+.RTWR_Header {
+    background-color: #000000;
+    border: solid black 1px;
+    color: white;
+    padding:5%;
+}
+
+.RTWR_HeaderFont{
+    font-size:3vh;
+    font-weight:900;
+       
+}
+
+.RTWR_RowFont {
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.RTWR_GrayRow {
+    background-color: #f2f2f2;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+}
+
+.RTWR_WhiteRow {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    }
+
+.RTWR_FinalRow {
+    border-bottom: solid black 1px;
+}
+
+}
+
+    /* -------------- about page elements   ----------------*/
+
+    .map {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        body {
+            overflow-x: hidden;
+        }
+
+
+        /* ---------------- CONTENT START ----------------- */
+
+        .FTWwrapper {
+            float: left;
+            width: 100%;
+        }
+
+        .FTW {
+            width: 100%;
+            height: 35vh;
+            margin-left: 0;
+        }
+
+        .socialIconBox {
+            width: 100%;
+            float: left;
+            border: solid black 1px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .socIconTop {
+            height: 12vh;
+            margin: 2vh 2vw 2vh 2vw;
+        }
+
+        .socIconBot {
+            height: 12vh;
+            margin: 2vh 2vw 2vh 2vw;
+        }
+
+        .contentWrapper {
+            width: 100%;
+            float: left;
+        }
+
+        .cardWrapper {
+            border: solid 1px black;
+            width: 100%;
+            float: left;
+        }
+
+        .cardTitle {
+            font-weight: 900;
+            font-size: 5.5vw;
+            width: 100%;
+            float: left;
+            text-align: center;
+        }
+
+        .cardImageWrapper {
+            float: left;
+            width: 100%;
+            background-color: pink;
+            margin-left: 0;
+        }
+
+        .cardImage {
+            width: 100%;
+        }
+
+        .cardTextBox {
+            background-color: white;
+            border: solid 1px black;
+            width: 100%;
+            word-wrap: break-word;
+            float: left;
+            text-align: center;
+        }
+
+        .cardText {
+            font-size: 3vw;
+            font-weight: 600;
+            margin-top: 0;
+            padding: 2vw;
+        }
+    }
+

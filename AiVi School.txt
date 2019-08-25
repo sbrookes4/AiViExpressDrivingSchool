@@ -1,0 +1,47 @@
+***********************************
+GODADDY LOGIN
+***********************************
+USERNAME:
+Victordwamena@live.co.uk
+
+PASSWORD:
+xegsav-bUqzyh-9kexwa
+
+Customer#: 99101035
+
+PIN:3695
+
+
+Nameservers:
+ns47.domaincontrol.com
+ns48.domaincontrol.com
+
+
+
+CPANLE DASHBOARD:
+
+https://myh.godaddy.com/?pl_id=1#/hosting/cpanel/account/34dd9d38-a463-11e9-8194-3417ebe60eb6
+
+***********************************
+CPANEL LOGIN:
+***********************************
+USER:
+xpxt087gmx6g
+
+PASSWORD:
+FuckingHell1!
+
+
+***********************************
+FileZilla:
+***********************************
+HOST:
+160.153.131.190
+
+USERNAME:
+xpxt087gmx6g
+
+PASSWORD:
+FuckingHell1!
+
+***********************************
